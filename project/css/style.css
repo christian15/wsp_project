@@ -19,13 +19,21 @@ a:hover{
 	color: black;
 }
 
+<<<<<<< HEAD
 li{
+=======
+.nav li{
+>>>>>>> master
 	float:left;
 	width: 100px;
 	text-align: center;
 }
 
+<<<<<<< HEAD
 ul{
+=======
+.nav{
+>>>>>>> master
 	background-color: black;
 	overflow: hidden;
 	width: 600px;
