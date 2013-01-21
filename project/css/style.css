@@ -19,14 +19,12 @@ a:hover{
 	color: black;
 }
 
-li{
 .nav li{
 	float:left;
 	width: 100px;
 	text-align: center;
 }
 
-ul{
 .nav{
 	background-color: black;
 	overflow: hidden;
