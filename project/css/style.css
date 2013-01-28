@@ -1,15 +1,23 @@
 body{
-	background-color: darkgray;
-	width: 800px;
+	background-image: url(../images/background.jpg);
+	width: 70.422535%;
 	margin: 0 auto;
+}
+
+header{
+	background-color: #9dccde;
 }
 
 p{
 	color: black;
 }
 
+#logo{
+	width:15%;
+}
+
 a{
-	color: white;
+	color: black;
 	display: block;
 	text-decoration: none;
 }
@@ -18,32 +26,147 @@ a:hover{
 	background-color: white;
 	color: black;
 }
+ul{
+	margin: 0 auto;
+}
 
 .nav li{
 	float:left;
-	width: 100px;
+	width: 16.668%;
 	text-align: center;
+	font-size: 100%;
+	color: black;
 }
 
 .nav{
-	background-color: black;
+	background-image: url(../images/navbackground.jpg);
 	overflow: hidden;
-	width: 600px;
+	width: 100%;
 	list-style-type: none;
 	padding: 0;
-}
-
-article{
-	background-color: lightblue;
-	border: 1px black solid;
-	border-radius: 10px;
-	padding: 10px;
-}
-
-img{
 	box-shadow: 2px 2px 5px;
 }
 
+article{
+	background-color: #d6d7d2;
+	border: 1px black solid;
+	padding: 1%;
+}
+
+article p{
+	width: 62.5%;
+	margin: 1%;
+}
+
+.ctapic{
+	width: 75%;
+}
+
+aside{
+	float:right;
+	border: 1px solid black;
+	font-size: 80%;
+	box-shadow: 2px 2px 5px;
+	margin-top: 5%;
+	background-color: #f7edee;
+
+}
+
+aside p,h2,a{
+	padding: 2%;
+	text-align: center;
+}
+
+
+article img{
+	box-shadow: 2px 2px 5px;
+	margin-top: 4%;
+}
+
+.staff img{
+	width: 30%;
+}
+
+div{
+	width: 50%;
+}
 footer{
 	text-align: center;
+	background-color:#9dccde;
+	margin: 0;
+}
+
+/* iPhone (portrait and landscape) ----------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+	body{
+		width: 100%;
+	}
+	
+	#logo{
+		width: 30%;
+	}
+	
+	aside{
+		display: none;
+	}
+	
+	.ctapic{
+	width: 100%;
+	}
+	
+	article p{
+	width: 100%;
+	margin: 1%;
+	}
+
+	#home{
+		display: none;
+	}
+	
+	nav li{
+		padding-right: 1.5%;
+		padding-left: 1.5%;
+	}
+	
+	a{
+		font-size: 80%;
+	}
+	
+	p{
+		padding-bottom: 5%;
+		line-height: 130%;
+	}
+
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media screen 
+and (min-width : 480px) 
+and (max-width : 1024px) {
+	body{
+		width: 90%;
+	}
+	
+	aside{
+		width: 23%;
+	}
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+	body{
+		width: 80%;
+	}
+	
+	.ctapic{
+		width: 70%;
+	}
+	
+	aside{
+		width: 20%;
+	}
 }
