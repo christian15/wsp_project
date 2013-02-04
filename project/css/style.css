@@ -10,10 +10,21 @@ header{
 
 p{
 	color: black;
+	line-height: 150%;
 }
 
 #logo{
 	width:15%;
+}
+
+.logo:hover{
+	background-color: #9dccde;
+	display: inline;
+}
+
+.logo{
+		display: inline;
+		padding: 0;
 }
 
 a{
@@ -22,7 +33,7 @@ a{
 	text-decoration: none;
 }
 
-a:hover{
+nav a:hover{
 	background-color: white;
 	color: black;
 }
@@ -51,6 +62,7 @@ article{
 	background-color: #d6d7d2;
 	border: 1px black solid;
 	padding: 1%;
+	margin: 0;
 }
 
 article p{
@@ -58,43 +70,212 @@ article p{
 	margin: 1%;
 }
 
-.ctapic{
-	width: 75%;
-}
-
-aside{
-	float:right;
-	border: 1px solid black;
-	font-size: 80%;
-	box-shadow: 2px 2px 5px;
-	margin-top: 5%;
-	background-color: #f7edee;
-
-}
-
-aside p,h2,a{
-	padding: 2%;
-	text-align: center;
-}
-
-
-article img{
-	box-shadow: 2px 2px 5px;
+.cta{
+	background-image: url("../images/homepagepic.jpg");
+	background-position:100% 100%;
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 67.175439%;
+	box-shadow: 2px 2px 6px 1px;
 	margin-top: 4%;
 }
 
-.staff img{
-	width: 30%;
+.cta p{
+	margin-left: 3%;
 }
 
-div{
-	width: 50%;
+.cta ul{
+	margin-bottom: 2%;
+	font-size: 90%;
+	line-height: 25px;
 }
+
+.cta a{
+	margin-left: 5%;
+}
+
+.bottomcta{
+	background-color: #d5e9f2;
+	margin-top: 2%;
+	border: 1px gray solid;
+	width: 66.999566%;
+	overflow: hidden;
+}
+
+.bottomcta p{
+	float: left;
+	padding-left: 2%;
+	font-size: 90%;
+	line-height: 130%;
+	margin-top: 3%;
+	text-align: justify;
+}
+
+.bottomcta img{
+	margin: .2%;
+	margin-left: 1%;
+	padding: 0;
+	float:right;
+	width: 25%;
+	box-shadow: 2px 2px 6px 1px;
+}
+
+.bottomcta a{
+	display: inline;
+	color: blue;
+	text-decoration: underline;
+	float: right;
+}
+
+h5{
+	font-size: 200%;
+	margin: 0px;
+	padding: 2%;
+	padding-left: 3%;
+}
+
+h6{
+	font-size: 100%;
+	margin: 0px;
+	padding-left: 3%;
+	margin-top: 0;
+	margin-right: 34%;
+}
+
+.learnmore{
+	display: inline;
+}
+
+aside{
+	border: 1px solid black;
+	font-size: 95%;
+	box-shadow: 2px 2px 5px;
+	margin-top: 5%;
+	background-color: #f7edee;
+	float: right;
+	text-align: left;
+	padding-left: 2%;
+}
+.directions{
+	margin-top: 20%;
+	
+}
+
+.contact p{
+	line-height: 0%;
+	margin-left: 18%;
+}
+
+.contact{
+	text-align: center;
+}
+
+.cta img:hover{
+	box-shadow: 2px 2px 2px 2px;
+}
+
+.staff img{
+	width: 20%;
+	margin-bottom: 10%;
+}
+.staff p{
+	font-size: 90%;
+	float: right;
+	width: 45%;
+	line-height: 150%;
+}
+h1{
+	margin-top: 5%;
+}
+.staff{
+	list-style-type: none;
+	text-align: left;
+	margin-top: 5%;
+}
+.staffdesc1{
+	margin-right: 7%;
+}
+.staffdesc2{
+	margin-right: 30%;
+}
+
+.servicepic{
+	width: 25%;
+	margin-top: 5%;
+	
+}
+
+.servicebody{
+	width: 50%;
+	float: right;
+	text-align: left;
+	line-height: 150%;
+	margin-top: 5%;
+}
+
+.servicebottom{
+	margin-left: 28%;
+	margin-top: 5%;
+	width: 80%;
+	line-height: 150%;
+}
+.servicelist{
+margin-left: 36%;
+margin-top: 1%;
+line-height: 150%;
+}
+
+.firstvisitpic{
+	margin-top: 5%;
+	width: 65%;
+	border: 1px solid black;
+	box-shadow: 2px 2px 6px 2px;
+}
+
+article p{
+	margin-bottom: 5%;
+	line-height: 200%;
+}
+
 footer{
 	text-align: center;
 	background-color:#9dccde;
-	margin: 0;
+	margin-left: 0%;
+	padding: 0px;
+	width: 100%;
+	border-bottom: 1px black solid;
+	border-right: 1px black solid;
+	border-left: 1px black solid;
+	overflow: hidden;
+	height: 5%;
 }
+.footnav{
+	width: 100%;
+}
+.footnav ul{
+	width: 100%;
+}
+.footnav li{
+	float: left;
+	width: 10%;
+	list-style-type: none;
+	padding-top: 10px;
+	margin-right: 3.5%;
+}
+.footnav img{
+	width: 20%;
+}
+.footnav a{
+	display: inline;
+	text-align: center;
+}
+
+
+
+
+
+
+
 
 /* iPhone (portrait and landscape) ----------- */
 @media screen and (min-width: 320px) and (max-width: 480px){
@@ -103,15 +284,26 @@ footer{
 	}
 	
 	#logo{
-		width: 30%;
+		width: 40%;
+		margin-left: 32%;
 	}
 	
 	aside{
 		display: none;
 	}
 	
-	.ctapic{
+	.cta{
 	width: 100%;
+	background-position: 70px 30px;
+	background-size: 400px 250px;
+	}
+	
+	.bottomcta{
+		width: 100%;
+		font-size: 100%;
+	}
+	.bottomcta p{
+		width: 90%;
 	}
 	
 	article p{
@@ -136,8 +328,103 @@ footer{
 		padding-bottom: 5%;
 		line-height: 130%;
 	}
+	
+	.footnav img{
+		width: 60%;
+	}
+	.footnav {
+		font-size: 100%;
+	}
+	
+	.firstvisitpic{
+		width: 100%;
+		border: 1px black solid;
+		box-shadow: 2px 2px 6px 1px;
+	}
+	
+	.nav{
+		font-size: 120%;
+	}
+	
+	.staff img{
+		width: 100%;
+		margin-bottom: 10%;
+	}
+	.staff p{
+		font-size: 90%;
+		float: none;
+		width: 100%;
+		line-height: 150%;
+	}
+	h1{
+		margin-top: 5%;
+		margin-left: 30%;
+	}
+	.staff{
+		list-style-type: none;
+		text-align: center;
+		margin-top: 5%;
+		
+	}
+	#staff{
+		overflow: hidden;
+		margin-left: -10%;
+		
+	}
+	article h1{
+		margin-left: 20%; 
+	}	
+	.servicepic{
+		width: 100%;
+		margin-top: 5%;
+	
+	}
+
+	.servicebody{
+		width: 97%;
+		float: none;
+		text-align: justify;
+		line-height: 150%;
+		margin-top: 5%;
+	}
+
+	.servicebottom{
+		margin-top: 5%;
+		width: 100%;
+		line-height: 150%;
+		margin-left:0%
+	}
+	.servicelist{
+		margin-left: 25%;
+		margin-top: 1%;
+		line-height: 150%;
+	}
+
+	article{
+		overflow: hidden;
+	}
+	
+	.contact p{
+		line-height: 0%;
+		margin-left: 0%;
+	}
+
+	.contact{
+		text-align: center;
+	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* iPads (portrait and landscape) ----------- */
@@ -151,8 +438,59 @@ and (max-width : 1024px) {
 	aside{
 		width: 23%;
 	}
+	
+	.footnav img{
+		width: 40%;
+	}
+	
+	.footnav {
+		font-size: 80%;
+	}
+	
+	.firstvisitpic{
+		width: 73%;
+		border: 1px black solid;
+		box-shadow: 2px 2px 6px 1px;
+	}
+	
+	.staff img{
+		width: 40%;
+		margin-bottom: 10%;
+	}
+	.staff p{
+		font-size: 90%;
+		float: none;
+		width: 60%;
+		line-height: 150%;
+	}
+	h1{
+		margin-top: 5%;
+		margin-left: 30%;
+	}
+	.staff{
+		list-style-type: none;
+		text-align: center;
+		margin-top: 5%;
+		
+	}
+	
+	#staff img{
+		margin-left: -30%;
+		padding: 0px;
+	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Desktops and laptops ----------- */
@@ -163,10 +501,18 @@ and (min-width : 1024px) {
 	}
 	
 	.ctapic{
-		width: 70%;
+		widthd: 70%;
 	}
 	
 	aside{
 		width: 20%;
+	}
+	
+	.footnav img{
+		width: 40%;
+	}
+	
+	.footnav {
+		font-size: 100%;
 	}
 }
